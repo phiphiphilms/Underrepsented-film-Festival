@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero .button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#about, #schedule, #films {
+    padding: 20px;
+    text-align: center;
+}
+
+#films .film-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#films .film {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#films .film img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .contact-info, footer .social-media, footer .newsletter {
+    margin: 10px;
+}
+
+footer .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer .social-media img {
+    width: 30px;
+    margin: 0 5px;
+}
